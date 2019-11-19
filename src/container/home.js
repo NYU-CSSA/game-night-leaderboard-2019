@@ -27,11 +27,11 @@ export default function Home(params) {
         }
         return (
             <div className="topFiveContainer">
-                <DisplayTopFivePlayer rank={5} players={topTen} src={process.env.PUBLIC_URL + '/visuals/J.jpg'}/>
-                <DisplayTopFivePlayer rank={3} players={topTen} src={process.env.PUBLIC_URL + '/visuals/K.jpg'}/>
-                <DisplayTopFivePlayer rank={1} players={topTen} src={process.env.PUBLIC_URL + '/visuals/joker.gif'}/>
-                <DisplayTopFivePlayer rank={2} players={topTen} src={process.env.PUBLIC_URL + '/visuals/A.png'}/>
                 <DisplayTopFivePlayer rank={4} players={topTen} src={process.env.PUBLIC_URL + '/visuals/Q.jpg'}/>
+                <DisplayTopFivePlayer rank={2} players={topTen} src={process.env.PUBLIC_URL + '/visuals/A.png'}/>
+                <DisplayTopFivePlayer rank={1} players={topTen} src={process.env.PUBLIC_URL + '/visuals/joker.gif'}/>
+                <DisplayTopFivePlayer rank={3} players={topTen} src={process.env.PUBLIC_URL + '/visuals/K.jpg'}/>
+                <DisplayTopFivePlayer rank={5} players={topTen} src={process.env.PUBLIC_URL + '/visuals/J.jpg'}/>
             </div>
         )
     }
